@@ -12,6 +12,7 @@ body {
 
 /* Navbar */
 .navbar {
+    position: 'fixed';
     background-color: #4CAF50;
     color: #fff!important;
     padding: 15px;
@@ -36,7 +37,6 @@ body {
     color: white;
     font-size: 30px;
     text-decoration: none;
-   
 }
 
 /* Product Grid */
@@ -83,6 +83,11 @@ body {
 
 .product-title {
     font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-subtitle {
+    font-weight: italic;
     margin-bottom: 10px;
 }
 
@@ -136,7 +141,7 @@ body {
 .tag_home_link h3{
     font-size: 30px;
 }
-.tag a{
+.tag a {
     text-decoration: none;
 }
 .tag {
@@ -150,7 +155,7 @@ body {
     height: 70px;
     width: 70px;
     border-radius: 70%;
-    
+    margin-right: 30px;
 }
 
 .luxury {
@@ -160,6 +165,7 @@ body {
     width: 650px;
     font-size: 19px;
 }
+
 .cart{
     color: white;
     display: flex;
